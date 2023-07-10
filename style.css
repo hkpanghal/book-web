@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+}
+
+#page1 #nav{
+   
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 8px white;
+    position: sticky;
+    top: 0;
+
+}
+#bullet{
+    color: wheat;
+    margin:20px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow:2px 2px 8px rgb(231, 231, 232);
+    width: fit-content;
+    box-shadow: 1px 1px 8px white;
+    position:sticky;
+    transform: translate(30%);
+    
+}
+#left{
+    position: absolute;
+    left: 2%;
+    box-shadow: 1px 1px 8px white;
+}
+#middle span{
+    box-shadow: 1px 1px 8px white;
+}
+#middle{
+    text-transform: capitalize;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    
+}
+
+#right{
+    position: absolute;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#right button{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px white;
+}
+
+#nav #left img{
+    height: 40px;
+
+}
+#nav #middle span{
+    color: white;
+}
+#nav #right h1{
+    color: white;
+    font-size: 15px;
+    box-shadow: 1px 1px 8px white;
+}
+#para{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+#para h2{
+    color: white;
+    text-transform: capitalize;
+    font-size: 130px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 8px;
+    margin: 30px;
+}
+
+#para #to span{
+    width:200px;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 20px 40px;
+    margin: 20px 40px;
+    box-shadow: 2px 4px 8px white;
+  
+}
+#page1 #topleft{
+    margin-left: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px white;
+}
+
+#page1 #bottomright{
+   position: absolute;
+   right: 10%;
+   bottom: 10%;
+   border-radius: 5px;
+   box-shadow: 2px 4px 8px white;
+}
+#page1 #bhagatsingh{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px white;
+}
+#page1 #adventure{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px white;
+}
+#scroll{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    box-shadow: 2px 4px 8px white;
+}
+
+  
+  
